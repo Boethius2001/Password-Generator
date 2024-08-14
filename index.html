@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body class="MainPage">
+
+    <div class="PassGen">
+        <h2>Password Generator</h2>
+
+        <label>Password lenght</label>
+        <input type="number" min="10" value="10" id="PassLen">
+        <br>
+        
+        <input type= "checkbox" id="Cletters" class="checkboxes">
+        <label>Include Lowecase letters</label>
+        <br>
+
+        <input type= "checkbox" id="CUletters" class="checkboxes">
+        <label>Include Uppercase letters</label>
+        <br>
+        
+        <input type= "checkbox" id="Cnumbers" class="checkboxes">
+        <label>Include numbers</label>
+        <br>
+
+        <input type= "checkbox" id="Csymbols" class="checkboxes">
+        <label>Include symbols</label>
+        <br>
+
+        <button type="button" onclick="GetPassword()">Get Password</button>
+        <br><br><br>
+
+        <h2 id = "DisplayPass">Your password :</h2>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.PassGen{
+    text-align: center;
+    font-size: 2em;
+    color: greenyellow;
+}
+.MainPage{
+    background-color: black;
+}
+
+button{
+    padding: 15px 15px;
+    margin: 30px;
+    background-color: green;
+    color: black;
+
+    font-size: 30px;
+    border-radius: 10px;
+    border: solid green;
+}
+button:hover{
+    background-color: rgb(42, 104, 42);
+    cursor: pointer;
+}
+
+#PassLen{
+    font-size: 30px;
+    background-color: black;
+    color: greenyellow;
+    border-radius: 10px;
+    border: solid green;
+    text-align: center;
+}
